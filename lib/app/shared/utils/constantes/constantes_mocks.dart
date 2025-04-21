@@ -2,12 +2,12 @@ import '../../../domain/entities/list_products_entity.dart';
 import '../../../domain/entities/product_entity.dart';
 
 class ConstantesMocks {
-  static List<ListProductsEntity> mockShoppingLists = List.generate(20, (int index) {
+  static List<ListProductsEntity> mockShoppingLists = List<ListProductsEntity>.generate(20, (int index) {
     return ListProductsEntity(
       id: 'list_$index',
       name: 'Compras de ${_getMonthName(index)}',
       createdAt: DateTime.now().subtract(Duration(days: index * 30)),
-      products: List.generate(10, (int productIndex) {
+      products: List<ProductEntity>.generate(10, (int productIndex) {
         return ProductEntity(
           id: 'prod_${index}_$productIndex',
           name: _mockProductNames[productIndex % _mockProductNames.length],
