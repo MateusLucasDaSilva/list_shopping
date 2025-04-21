@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "889577135915",
+    "project_id": "teste-d1a21",
+    "storage_bucket": "teste-d1a21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889577135915:android:a87a68da886969a042ef6e",
+        "android_client_info": {
+          "package_name": "com.br.nosso_sonho"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrIRs0qHGRnNsHIgj6MoITUCVJYX4418g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889577135915:android:a39f344b39f631e542ef6e",
+        "android_client_info": {
+          "package_name": "com.example.nosso_sonho"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrIRs0qHGRnNsHIgj6MoITUCVJYX4418g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889577135915:android:45dc24adb2e45e0442ef6e",
+        "android_client_info": {
+          "package_name": "mateus.com.br.list_shopping"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrIRs0qHGRnNsHIgj6MoITUCVJYX4418g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

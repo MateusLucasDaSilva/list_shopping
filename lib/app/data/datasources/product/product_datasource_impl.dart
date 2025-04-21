@@ -33,7 +33,7 @@ class ProductDatasourceImpl extends ProductDatasource {
 
   DocumentReference<Map<String, dynamic>> _productDocumentRef(String productId) => _firebase
       .collection(
-        ConstantesCollectionName.products,
+        ConstantesCollectionName.myProducts,
       )
       .doc(productId);
 }
